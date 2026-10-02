@@ -8,9 +8,9 @@ The pattern list started as my own notes on what I kept deleting from AI drafts,
 
 - `ai-writing-audit.zip` – the skill, packaged for upload to the Claude app
 - `ai-writing-rules.txt` – the same pattern catalog as a plain text file, for ChatGPT, Gemini, and other apps
-- `ai-writing-audit/SKILL.md` – the instructions Claude follows when it uses the skill
-- `ai-writing-audit/references/ai-pattern-catalog.md` – the pattern catalog. If you only read one file, read this one.
-- `ai-writing-audit/references/domain-credibility-checks.md` – an extra layer for writing about private investments (real estate syndication, LP/GP mechanics, returns, tax). Claude only loads it when a draft makes those kinds of claims.
+- `skill/SKILL.md` – the instructions Claude follows when it uses the skill
+- `skill/references/ai-pattern-catalog.md` – the pattern catalog. If you only read one file, read this one.
+- `skill/references/domain-credibility-checks.md` – an extra layer for writing about private investments (real estate syndication, LP/GP mechanics, returns, tax). Claude only loads it when a draft makes those kinds of claims.
 - `CHANGELOG.md` – what changed in each version
 
 ## Install
@@ -28,7 +28,7 @@ The skill then works in both regular chats and Cowork. ([Anthropic’s instructi
 Paste this into a session:
 
 ```
-Install the AI Writing Audit skill from https://github.com/dustinbailey/ai-resources. Copy the ai-writing-audit/ai-writing-audit folder (SKILL.md plus its references folder) into the folder where you load skills (for Claude Code that's ~/.claude/skills/ai-writing-audit/), replacing any older copy. Then list the installed files and tell me the version line from SKILL.md.
+Install the AI Writing Audit skill from https://github.com/dustinbailey/ai-resources. Copy the contents of the ai-writing-audit/skill folder (SKILL.md plus the references folder) into a folder named ai-writing-audit where you load skills (for Claude Code that's ~/.claude/skills/ai-writing-audit/), replacing any older copy. Then list the installed files and tell me the version line from SKILL.md.
 ```
 
 Use the same prompt when a new version comes out.
